@@ -1,0 +1,154 @@
+.token-section {
+  width: 470px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.search-section {
+  color: #00234e;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.search-section .headeing {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tokens-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.tokens-name h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #00234e;
+}
+
+.input-box input {
+  position: relative;
+  display: flex;
+  padding: 16px;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+  outline: none;
+  background: #f2f2f2;
+  color: inherit;
+  border: 1px solid #f2f2f2;
+  appearance: none;
+  font-size: 16px;
+  border-radius: 12px;
+  transition: border 100ms;
+}
+
+.tags {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.tag {
+  font-size: 1rem;
+  border-radius: 100rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  color: #283b70;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  transition: background-color 250ms ease, box-shadow 250ms ease;
+}
+
+.tag > a {
+  display: inline-block;
+  position: relative;
+  color: #283b70;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+}
+
+.tag > a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 100%;
+  /* background-color: var(--color); */
+  transform: translateY(-50%);
+}
+
+.tag:hover {
+  background-color: #d0dffc;
+}
+
+.list {
+  margin-top: 10px;
+  max-height: 300px;
+  overflow: auto;
+}
+.list .list-item {
+  padding: 10px 20px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.list .list-item:hover {
+  background-color: #cccccc78;
+}
+.list .list-item .label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+.list .list-item .name {
+  font-size: 14px;
+  font-weight: 400;
+  color: #00234e;
+}
+.list-token {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+}
+.list-token .list-btn {
+  color: #00234e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tokendark .token-section {
+  background: #18193b;
+}
+.tokendark .search-section {
+  color: #fff;
+}
+.tokendark .tokens-name h4 {
+  color: #fff;
+}
+.tokendark .tag > a {
+  color: #fff;
+}
+.tokendark .list .list-item .name {
+  color: #fff;
+}
+
+.tokendark .list .list-item .label {
+  color: #fff;
+}
+
+.tokendark .list-token .list-btn {
+  color: #fff;
+}

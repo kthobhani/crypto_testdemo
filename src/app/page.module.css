@@ -1,3 +1,7 @@
+/* body{
+  --blue-color: #00234E;
+} */
+
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -6,14 +10,36 @@
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
 
-  display: grid;
-  grid-template-rows: 20px 1fr 20px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-items: center;
-  min-height: 100svh;
-  padding: 80px;
-  gap: 64px;
+  min-height: 100vh;
   font-family: var(--font-geist-sans);
+  background: url(https://swap.cow.fi/assets/background-cowswap-lightmode-oHG5WLOn.svg)
+    center bottom -1px / contain no-repeat #65d9ff;
+  color: #383838;
+  height: 100vh;
+}
+
+.pagedark {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #f2f2f2;
+  --button-secondary-hover: #383838;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  min-height: 100vh;
+  font-family: var(--font-geist-sans);
+
+  background: url(https://swap.cow.fi/assets/background-cowswap-darkmode-BEnOnXSg.svg)
+    center bottom -1px / contain no-repeat rgb(14, 15, 45);
+  color: #f2f2f2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,6 +53,11 @@
   }
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .main {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,191 @@
+.wallet-section {
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+  color: #00234e;
+  width: 470px;
+  padding: 10px;
+  border-radius: 30px;
+  position: relative;
+}
+.wallet-section-dark {
+  background-color: hsla(0, 0%, 95%, 1);
+}
+.wallet-section .tab-section .MuiTabs-indicator {
+  display: none;
+}
+
+.tabs {
+  margin-bottom: 10px;
+}
+
+.tab-section .Mui-selected {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: inherit;
+  background: #f2f2f2;
+}
+.weth-section .MuiBox-root {
+  padding: 0;
+}
+.weth-section .down-arrow {
+  position: relative;
+}
+.weth-section .down-arrow {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0px;
+  box-shadow: 0 0 0 3px #ffffff;
+  background: #f2f2f2;
+  color: inherit;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.wallet-section .tab-section .MuiButtonBase-root {
+  text-transform: unset;
+  /* padding: 0 10px;
+    min-width: 30px; */
+  /* margin-bottom: 10px; */
+  min-height: unset;
+}
+.wallet-section .tab-section .tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weth-section {
+  background: hsla(0, 0%, 95%, 1);
+  min-height: 106px;
+  border-radius: 16px;
+}
+.weth-section-dark {
+  background: #a4a4a4;
+  min-height: 106px;
+  border-radius: 16px;
+}
+
+.weth-section form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.weth-section .MuiFormControl-root .MuiOutlinedInput-notchedOutline {
+  border: unset;
+}
+
+.right-section {
+  width: 280px;
+}
+.right-section .MuiInputBase-input {
+  text-align: end;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.dropdown {
+  background-color: #ffffff;
+  border-radius: 30px;
+  min-width: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  font-size: 19px;
+  box-shadow: 0px 4px 8px rgba(0, 66, 147, 0.06);
+  cursor: pointer;
+}
+
+.dropdown .img-section {
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.dropdown-img {
+  display: flex;
+}
+
+.input-section .MuiBox-root {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.connect-btn {
+  width: 100%;
+  background-color: #004293;
+  color: #65d9ff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 16px;
+  min-height: 58px;
+  text-align: center;
+}
+
+.eth-section {
+  background: transparent;
+  border: 1px solid hsla(0, 0%, 95%, 1);
+}
+.eth-section-dark {
+  background: hsla(0, 0%, 95%, 1);
+  min-height: 106px;
+  border-radius: 16px;
+}
+.walletdark .wallet-section {
+  background: #18193b;
+}
+.walletdark .search-section {
+  color: #fff;
+}
+.walletdark .tokens-name h4 {
+  color: #fff;
+}
+.walletdark .tag > a {
+  color: #fff;
+}
+.walletdark .list .list-item .name {
+  color: #fff;
+}
+
+.walletdark .list .list-item .label {
+  color: #fff;
+}
+
+.walletdark .list-token .list-btn {
+  color: #fff;
+}
+
+.walletdark .tab-section-h {
+  color: #fff;
+}
+.walletdark .tab-section .Mui-selected {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: #141414;
+  background: #f2f2f2;
+}
